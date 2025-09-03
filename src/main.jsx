@@ -1,10 +1,10 @@
 import React, { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import Square from './App.jsx'
+import Board from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
     <StrictMode>
-    <Square />
+    <Board />
     </StrictMode>
   
 )
